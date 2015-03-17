@@ -37,3 +37,6 @@ environment:
 
 matrix:
   fast_finish: true
+
+on_finish:
+  - ps: Start-Sleep -s 600
