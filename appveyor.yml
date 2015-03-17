@@ -23,7 +23,7 @@ test_script:
   - bash ./script/cibuild
 
 cache:
-  - C:\Users\appveyor\.gem -> Gemfile,github-pages.gemspec
+  #- C:\Users\appveyor\.gem -> Gemfile,github-pages.gemspec
   - C:\Ruby%ruby_folder_version%\bin -> Gemfile,github-pages.gemspec
   - C:\Ruby%ruby_folder_version%\lib\ruby\gems\%ruby_gems_folder% -> Gemfile,github-pages.gemspec
 
