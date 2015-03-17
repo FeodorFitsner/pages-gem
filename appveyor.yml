@@ -6,6 +6,9 @@ shallow_clone: true
 
 build: off
 
+init:
+  - icacls "C:\Ruby22\*" /grant "Administrators":F /T /C /L /Q
+
 install:
   - SET PATH=C:\Ruby%ruby_folder_version%\bin;%PATH%
 
