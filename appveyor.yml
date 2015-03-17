@@ -7,7 +7,7 @@ shallow_clone: true
 build: off
 
 init:
-  - icacls "C:\Ruby22\*" /grant "Administrators":F /T /C /L /Q
+  - ps: Start-Sleep -s 600
 
 install:
   - SET PATH=C:\Ruby%ruby_folder_version%\bin;%PATH%
