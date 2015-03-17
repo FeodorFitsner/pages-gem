@@ -7,7 +7,7 @@ shallow_clone: true
 build: off
 
 init:
-  - ps: Start-Sleep -s 600
+  - ps: Start-Sleep -s 240
 
 install:
   - SET PATH=C:\Ruby%ruby_folder_version%\bin;%PATH%
